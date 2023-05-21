@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  text-align: end;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: "#bee3f3";
+}
+
+progress {
+  border-radius: 32px;
+  width: 100%;
+  height: 6px;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 32px;
+  background-color: #00000020;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 32px;
+  background-color: black;
+}
